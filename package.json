@@ -1,0 +1,33 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "This package will work as stand alone node API to be used at multiple application or single but stand alone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MishraAshish/NodeAPI.git"
+  },
+  "keywords": [
+    "StandAlone",
+    "Node",
+    "API"
+  ],
+  "author": "Ashish Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MishraAshish/NodeAPI/issues"
+  },
+  "homepage": "https://github.com/MishraAshish/NodeAPI#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "iconv-lite": "0.4.23",
+    "method-override": "3.0.0"
+  }
+}
