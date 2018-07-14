@@ -12,9 +12,9 @@ app.use(bodyParser.json({limit:'200mb', type:'application/x-www-form-urlencoding
 app.use(methodOverride('X-HTTP-Method-Override'));
 app.use(cors());
 app.use(express.static(root));
-//var router = require('./routerTest');
-//app.use('/api', router);
-require('./routes')(app);
+var router = require('./routes');
+app.use('/', router);
+//require('./routes')(app);
 app.listen(port);
 
 // shoutout to the user
